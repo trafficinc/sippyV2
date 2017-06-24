@@ -1,7 +1,14 @@
 # sippy
-Sippy is a small/easy to use modern PHP web development Framework.
+  Sippy is a small/easy to use modern PHP web development Framework.
 
-Work in progress, but feel free to download, run composer, and point the browser to localhost:<port>/sippy/public.
+Work in progress, but feel free to:
+- download zip to web directory
+- run composer
+- point your browser to [http://localhost:<port>/sippy/public]
 
-Need some help with features and documentation.
-Trying to keep this framework geared toward smaller applications or brochure web projects.
+# CLI Tools
+
+$ php cli/sippy.php -help
+
+More coming soon.
+This framework is geared toward smaller applications or brochure web projects.
