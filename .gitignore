@@ -1,0 +1,6 @@
+/app/Views/cache
+composer.phar
+composer.lock
+/vendor
+/.idea
+/.vagrant
