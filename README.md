@@ -4,7 +4,7 @@
 Work in progress, but feel free to:
 - download zip to web directory
 - run composer
-- point your browser to [http://localhost:<port>/sippy/public]
+- point your browser to [http://localhost/sippy/public]
 
 # CLI Tools
 
