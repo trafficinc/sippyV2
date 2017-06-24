@@ -7,6 +7,7 @@ Work in progress, but feel free to:
 - point your browser to [http://localhost/sippy/public]
 
 TODO's:
+- [BaseController] Add request controller validation
 - Authentication component
 - Front-End: add build tools (JS libraries - [jQuery,Vue], SASS)
 - Email service
