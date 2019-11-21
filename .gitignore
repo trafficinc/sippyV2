@@ -1,0 +1,13 @@
+/app/Views/cache
+composer.phar
+/vendor
+/.idea
+/.vagrant
+bucket/logs
+!bucket/logs/index.html
+bucket/cache
+!bucket/cache/index.html
+session/cache
+!session/cache/index.html
+uploads/cache
+!uploads/cache/index.html

@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}Sippy Intro Page{% endblock %}
+{% block head %}
+    {{ parent() }}
+    <style type="text/css">
+        h2 { color: #ff7162; }
+    </style>
+{% endblock %}
+{% block content %}
+
+<div class="row">
+    <div class="col-md-3"></div>
+    <section class="col-md-8">
+        <a href="{{ url('/') }}"><img width="200" src="{{ asset('img/sippy-logo.svg') }}" alt="Sippy logo"></a>
+        <h2 class="hero-headline">Build simple websites <br> with an easy-to-use framework</h2>
+        <h3 class="hero-description">Sippy is a PHP MVC framework for modern web development.</h3>
+        <p>Today: {{ today }}</p>
+
+    </section>
+</div>
+
+{% endblock %}
